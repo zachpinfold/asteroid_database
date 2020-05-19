@@ -4,7 +4,18 @@
 
 .App {
   text-align: center;
+  align-content: center;
 }
+
+#mapid { 
+  height: 150px; 
+  width: 300px;
+}
+
+/* #mapContainer { 
+  justify-content: center;
+  display: flex;
+} */
 
 body {
   display: flex;
@@ -15,12 +26,19 @@ body {
   margin: 0;
 }
 
+.mapLeftContainer {
+  margin: 30px;
+}
+
 .asteroidCard {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-align: left;
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .list {
