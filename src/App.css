@@ -1,5 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbf5f3;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.asteroidCard {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  margin-top: 50px;
+}
+
+.list {
+  background-color: #61dafb;
+  margin-top: 50px;
+  padding: 30px;
 }
 
 .App-logo {
