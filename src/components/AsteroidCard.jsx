@@ -4,8 +4,7 @@ import { Map, TileLayer, Marker } from "react-leaflet";
 const AsteroidCard = ({ name, geolocation }) => {
 
 
-
-
+  
 
     return (
     <div className="asteroidCard">

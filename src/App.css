@@ -5,12 +5,57 @@
 .App {
   /* text-align: center; */
   align-content: center;
-  width: 75vw
+  width: 75vw;
 }
 
-#mapid { 
-  height: 150px; 
+#mapid {
+  height: 150px;
   width: 300px;
+}
+
+#mapid--dashboard {
+  height: 300px;
+  width: 400px;
+}
+
+.dashboard {
+  background-color: #e63946;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 75px;
+  overflow: hidden;
+  height: auto;
+}
+
+.innerdash {
+  background-color: white;
+  display: flex;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard--frontpanel1 {
+  display: inline;
+  flex: 1;
+}
+
+.dashboard--frontpanel2 {
+  display: inline;
+  flex: 1;
+}
+
+.card--dash {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+
+.graph  {
+  height: auto
 }
 
 
@@ -24,32 +69,30 @@ body {
   margin-right: 50px;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .asteroidCard {
     display: flex;
     text-align: left;
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     margin-bottom: 40px;
   }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .asteroidCard {
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     margin-bottom: 40px;
   }
 }
 
-
-
 .leftContainer {
-  margin: 30px; 
+  margin: 30px;
   flex: 2;
 }
 
@@ -59,11 +102,8 @@ body {
 }
 
 .list {
-  background-color: #61dafb;
+  background-color: #a8dadc;
   margin-top: 50px;
   padding: 30px;
   border-radius: 5px;
 }
-
-
-
