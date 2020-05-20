@@ -2,12 +2,17 @@ import React from "react";
 import { Map, TileLayer, Marker } from "react-leaflet";
 
 const AsteroidCard = ({ name, geolocation }) => {
-  return (
+
+
+
+
+
+    return (
     <div className="asteroidCard">
-      <div className="mapLeftContainer">
+      <div className="leftContainer">
         <h3>{name}</h3>
         <h4>Location:</h4>
-        <div id="mapContainer">
+        <div>
           <Map
             center={[geolocation.latitude, geolocation.longitude]}
             zoom={8}
@@ -21,7 +26,7 @@ const AsteroidCard = ({ name, geolocation }) => {
           </Map>
         </div>
       </div>
-      <div>
+      <div className="rightContainer">
         <p>Date discovered:</p>
         <p>Mass:</p>
       </div>
